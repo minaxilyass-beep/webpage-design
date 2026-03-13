@@ -136,3 +136,35 @@ body {
     font-weight: bold;
     font-size: 24px;
 }
+
+.cta-section {
+    padding: 100px 200px;
+}
+.cta-container {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+    border-radius: 10px;
+    color: white;
+}
+.cta-text h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.cta-text p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+.cta-button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 8px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+}
